@@ -42,3 +42,5 @@ class Case:
                 # 添加每个障碍物顶点的坐标
                 case.obs.append(np.array(v[vs:vs + nv * 2]).reshape((nv, 2), order='A'))
         return case
+
+        
